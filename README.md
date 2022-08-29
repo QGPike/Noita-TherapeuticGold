@@ -7,4 +7,3 @@ This mod makes gold of all forms heal you when picked up. I find it a more prefe
 Of course this mod can be abused when used in combination with "Midas Suite."
 
 I have yet to find any compatibility issues with other mods.
-Let me know if you find any bugs!

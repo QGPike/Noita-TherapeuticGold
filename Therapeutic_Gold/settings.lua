@@ -7,8 +7,8 @@ mod_settings =
 {
 	{
 		id = "regen_scalar",
-		ui_name = "Horizontal position",
-		ui_description = "",
+		ui_name = "Regen Multiplier",
+		ui_description = "The amount of health gained per 1 gold earned",
 		value_default = 0.016,
 		value_min = 0,
 		value_max = 1,

@@ -12,7 +12,7 @@ mod_settings =
 		value_default = 0.25,
 		value_min = 0,
 		value_max = 5,
-		value_display_multiplier = 1,
+		value_display_multiplier = 1.0,
 		value_display_formatting = "",
 		scope = MOD_SETTING_SCOPE_RUNTIME,
 	}

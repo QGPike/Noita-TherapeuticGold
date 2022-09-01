@@ -17,10 +17,10 @@ local mod_settings =
 		ui_name = "Regen Multiplier",
 		ui_description = "The amount of health gained per 1 gold earned",
         value_type = "number",
-        value_min = 0.1,
+        value_min = 0.01,
         value_max = 2,
         value_default = 0.5,
-        value_display_formatting = "%d",
+        value_display_formatting = " $0 ",
         scope = MOD_SETTING_SCOPE_RUNTIME
 	}
 }

@@ -1,8 +1,15 @@
 dofile_once("data/scripts/lib/utilities.lua")
 dofile_once("data/scripts/lib/mod_settings.lua")
 
+
+
 local mod_id = "Therapeutic_Gold"
 mod_settings_version = 1
+
+local function format_fn_regen(val)
+	return string.format("%.1f", val)
+end
+
 mod_settings =
 {
 	{
@@ -12,8 +19,9 @@ mod_settings =
 		value_default = 0.25,
 		value_min = 0,
 		value_max = 5,
-		value_display_multiplier = 1.0,
+		value_display_multiplier = 100,
 		value_display_formatting = "",
+        format_fn = format_fn_regen,
 		scope = MOD_SETTING_SCOPE_RUNTIME,
 	}
 }

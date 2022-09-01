@@ -1,0 +1,8 @@
+	<Mod
+		name="Therapeutic Gold"
+		description="Picking up gold heals the player. Amount scales with the gold value."
+		tags="gameplay,quality of life,tweaks"
+		dont_upload_folders=""
+		dont_upload_files=""
+	> 
+	</Mod>

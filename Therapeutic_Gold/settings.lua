@@ -20,7 +20,7 @@ local mod_settings =
         value_min = 0.01,
         value_max = 2,
         value_default = 0.5,
-        value_display_formatting = " $0 ",
+        value_display_formatting = " $0",
         scope = MOD_SETTING_SCOPE_RUNTIME
 	}
 }

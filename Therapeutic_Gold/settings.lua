@@ -10,16 +10,16 @@ local function format_fn_regen(val)
 	return string.format("%.1f", val)
 end
 
-mod_settings =
+local mod_settings =
 {
 	{
 		id = "regen_scalar",
 		ui_name = "Regen Multiplier",
 		ui_description = "The amount of health gained per 1 gold earned",
 		value_default = 0.25,
-		value_min = 0,
-		value_max = 5,
-		value_display_multiplier = 100,
+		value_min = 0.1,
+		value_max = 2,
+		value_display_multiplier = 100.0,
 		value_display_formatting = "",
         format_fn = format_fn_regen,
 		scope = MOD_SETTING_SCOPE_RUNTIME,

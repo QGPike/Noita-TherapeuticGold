@@ -13,16 +13,15 @@ end
 local mod_settings =
 {
 	{
-		id = "regen_scalar",
+        id = "regen_scalar",
 		ui_name = "Regen Multiplier",
 		ui_description = "The amount of health gained per 1 gold earned",
-		value_default = 0.25,
-		value_min = 0.1,
-		value_max = 2,
-		value_display_multiplier = 1.0,
-		value_display_formatting = "",
-        format_fn = format_fn_regen,
-		scope = MOD_SETTING_SCOPE_RUNTIME,
+        value_type = "number",
+        value_min = 0,
+        value_max = 100,
+        value_default = 100,
+        value_display_formatting = " $0% ",
+        scope = MOD_SETTING_SCOPE_RUNTIME
 	}
 }
 
